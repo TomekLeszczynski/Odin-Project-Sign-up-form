@@ -28,6 +28,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 3fr;
   width: 1200px;
+  height: 700px;
   padding: 20px;
   border-radius: 15px;
   background-color: var(--white);
@@ -36,10 +37,10 @@ body {
 .container .hero-part {
   position: relative;
   grid-column: 1/2;
-  min-width: 300px;
+  min-width: 370px;
+  height: 100%;
   border-radius: 10px;
   background-image: url(/img/jelly2.jpg);
-  background-size: cover;
 }
 .container .hero-part h1 {
   position: absolute;
@@ -56,8 +57,11 @@ body {
   margin-bottom: 10px;
   font-size: 21px;
 }
-.container .form-part .header-txt span {
+.container .form-part .header-txt .italic {
   font-style: italic;
+}
+.container .form-part .header-txt .header-red {
+  color: var(--strawberry-red);
 }
 .container .form-part form {
   display: grid;
@@ -101,7 +105,7 @@ body {
   border: 1px solid var(--green);
 }
 .container .form-part form input:valid {
-  background-color: rgb(198, 255, 160);
+  background-color: rgba(161, 255, 107, 0.884);
 }
 .container .form-part form .input-error {
   visibility: hidden;
