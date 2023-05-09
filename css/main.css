@@ -38,7 +38,7 @@ body {
   grid-column: 1/2;
   min-width: 300px;
   border-radius: 10px;
-  background-image: url(/img/jelly-hero.webp);
+  background: url(/img/jelly-hero.webp);
   background-size: cover;
 }
 .container .hero-part h1 {
