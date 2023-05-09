@@ -30,22 +30,30 @@
 
                 <div class="col-one">
                     <label for="first_name">first name:</label>
-                    <input type="text" id="first_name" name="first_name" placeholder="John">
+                    <input type="text" id="first_name" name="first_name" placeholder="John" pattern="^[^0-9]+$" value=""
+                        required autocomplete="off">
                     <label for="phone_number">phone number:</label>
-                    <input type="number" id="phone_number" name="phone_number" placeholder="555333777">
+                    <input id="phone_number" name="phone_number" placeholder="555333777" pattern="^[0-9]{9}$" required
+                        autocomplete="off">
                     <label for="password">password:</label>
-                    <input type="password" id="password" minlength="8" pattern=""
-                        title="Password must contain min.8 characters" placeholder="********" name="password">
+                    <input type="password" id="password"
+                        title="Password must contain min.8 characters: letters, digits and special characters."
+                        placeholder="********" name="password"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required
+                        autocomplete="off">
                 </div>
-
                 <div class="col-two">
                     <label for="last_name">last name:</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Smith">
+                    <input type="text" id="last_name" name="last_name" placeholder="Smith" pattern="^[^0-9]+$" required
+                        autocomplete="off">
                     <label for="email">email:</label>
-                    <input type="email" id="email" name="email" placeholder="you@example.com">
+                    <input type="email" id="email" name="email" placeholder="you@example.com"
+                        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required autocomplete="off">
                     <label for="password_validation">confirm password:</label>
-                    <input type="password" id="password_validation" minlength="8" pattern=""
-                        title="Password must contain min.8 characters" placeholder="********">
+                    <input type="password" id="password_validation"
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                        title="Password must contain min.8 characters: letters, digits and special characters."
+                        placeholder="********" required autocomplete="off">
                     <p class="input-error">*Passwords doesn't match.</p>
                 </div>
 

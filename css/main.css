@@ -11,6 +11,7 @@
   --grayish-blue-hovered: #1a59c0;
   --dark-blue: hsl(218, 44%, 22%);
   --strawberry-red: hsl(354, 84%, 57%);
+  --green: hsl(167, 84%, 57%);
 }
 
 body {
@@ -92,8 +93,15 @@ body {
 .container .form-part form input:focus {
   border: 1px solid var(--grayish-blue);
 }
-.container .form-part form input:invalid {
+.container .form-part form input:focus:invalid {
   border: 1px solid var(--strawberry-red);
+  background-color: rgb(255, 96, 96);
+}
+.container .form-part form input:focus:valid {
+  border: 1px solid var(--green);
+}
+.container .form-part form input:valid {
+  background-color: rgb(198, 255, 160);
 }
 .container .form-part form .input-error {
   visibility: hidden;
