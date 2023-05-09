@@ -1,6 +1,6 @@
 ## The Odin Project Sign up form
 
-![The Odin Project Sign up form screen]()
+![The Odin Project Sign up form screen](img/APP SCREEN.jpg)
 
 ## General Info
 
