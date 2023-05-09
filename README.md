@@ -1,6 +1,6 @@
 ## The Odin Project Sign up form
 
-![The Odin Project Sign up form screen]([img/APP SCREEN.jpg](https://github.com/TomekLeszczynski/Odin-Project-Sign-up-form/blob/1a917f995fafff8487269a872438caa85cef2fbb/img/APP%20SCREEN.jpg))
+![The Odin Project Sign up form screen](https://raw.githubusercontent.com/TomekLeszczynski/Odin-Project-Sign-up-form/1a917f995fafff8487269a872438caa85cef2fbb/img/APP%20SCREEN.jpg))
 
 ## General Info
 
