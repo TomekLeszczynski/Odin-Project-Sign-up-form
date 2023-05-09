@@ -39,8 +39,6 @@ body {
   grid-column: 1/2;
   min-width: 370px;
   height: 100%;
-  border-radius: 10px;
-  background-image: url(/img/jelly2.jpg);
 }
 .container .hero-part h1 {
   position: absolute;
@@ -49,6 +47,10 @@ body {
   transform: translate(-50%, -50%);
   color: var(--light-gray);
   font-size: 100px;
+}
+.container .hero-part img {
+  width: 100%;
+  border-radius: 10px;
 }
 .container .form-part {
   padding: 50px 100px;
