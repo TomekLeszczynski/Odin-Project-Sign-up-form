@@ -50,5 +50,6 @@ Completed.
 * Built-in form validation is not as customizable as JS validation.
 * Got some issues with displaying images by GithubPages.
 * autocomplete="off" is not working properly on Chrome
-* Since the form is not submitting data, page is getting damage after clicking the button.
+* Since the form is not submitting data, page may get damage after clicking the button.
+* More options of client-side validation to check later.
 
