@@ -110,6 +110,11 @@ body {
 				display: flex;
 				flex-direction: column;
 				margin-top: 20px;
+				.error-info-btn {
+					margin-bottom: 5px;
+					font-size: 12px;
+					color: var(--strawberry-red);
+				}
 
 				button {
 					padding: 10px 10px;

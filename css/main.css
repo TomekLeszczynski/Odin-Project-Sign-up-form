@@ -119,6 +119,11 @@ body {
   flex-direction: column;
   margin-top: 20px;
 }
+.container .form-part form .button-box .error-info-btn {
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: var(--strawberry-red);
+}
 .container .form-part form .button-box button {
   padding: 10px 10px;
   margin-bottom: 10px;

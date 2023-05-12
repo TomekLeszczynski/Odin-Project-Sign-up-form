@@ -16,11 +16,12 @@
     <div class="container">
         <div class="hero-part">
             <h1>Jelly</h1>
-            <img src="/img/jelly2.jpg" alt="">
+            <img src="/jelly2.jpg" alt="">
         </div>
         <div class="form-part">
             <div class="form-header">
-                <p class="header-txt"><span class="header-red"> This is not a real online service! </span>You know you need something like this in your
+                <p class="header-txt"><span class="header-red"> This is not a real online service! </span>You know you
+                    need something like this in your
                     life to help you
                     realize your deepest dreams. Sign up <span class="header-txt italic">now</span> to get started.</p>
                 <p class="header-txt">Let's do this!</p>
@@ -28,13 +29,13 @@
             <form action="" method="post">
 
                 <div class="col-one">
-                    <label for="first_name">first name:</label>
+                    <label for="first_name">first name*</label>
                     <input type="text" id="first_name" name="first_name" placeholder="John" pattern="^[^0-9]+$" value=""
                         required autocomplete="off">
-                    <label for="phone_number">phone number:</label>
+                    <label for="phone_number">phone number*</label>
                     <input id="phone_number" name="phone_number" placeholder="555333777" pattern="^[0-9]{9}$" required
                         autocomplete="off">
-                    <label for="password">password:</label>
+                    <label for="password">password*</label>
                     <input type="password" id="password"
                         title="Password must contain min.8 characters: letters, digits and special characters."
                         placeholder="********" name="password"
@@ -42,13 +43,13 @@
                         autocomplete="off">
                 </div>
                 <div class="col-two">
-                    <label for="last_name">last name:</label>
+                    <label for="last_name">last name*</label>
                     <input type="text" id="last_name" name="last_name" placeholder="Smith" pattern="^[^0-9]+$" required
                         autocomplete="off">
-                    <label for="email">email:</label>
+                    <label for="email">email*</label>
                     <input type="email" id="email" name="email" placeholder="you@example.com"
                         pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required autocomplete="off">
-                    <label for="password_validation">confirm password:</label>
+                    <label for="password_validation">confirm password*</label>
                     <input type="password" id="password_validation"
                         pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
                         title="Password must contain min.8 characters: letters, digits and special characters."
@@ -57,7 +58,8 @@
                 </div>
 
                 <div class="button-box">
-                    <button type="button">Create Account</button>
+                    <p class="error-info-btn">*Turn all fields green and hit the button below!</p>
+                    <button type="submit" disabled>Create Account</button>
                     <p class="body-txt">Already have an account?<a href="#" target="_blank"> Log in</a></p>
                 </div>
 
